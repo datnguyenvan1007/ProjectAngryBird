@@ -153,7 +153,7 @@ public class GameController : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Scene2");
     }
 
     public void DisplayEnemyAlive()
