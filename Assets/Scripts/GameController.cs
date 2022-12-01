@@ -146,7 +146,7 @@ public class GameController : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Scene1");
     }
 
     public void DisplayEnemyAlive()
