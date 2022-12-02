@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (GameObject.Find("bird(Clone)") == null)
+        if (GameObject.Find("bird(Clone)") == null && GameObject.Find("Bomb(Clone)") == null && GameObject.Find("big_brother(Clone)") == null)
             DisplayEndLevel();
         if (startScore < totalScore)
         {

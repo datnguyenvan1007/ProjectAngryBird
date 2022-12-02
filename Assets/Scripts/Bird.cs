@@ -6,9 +6,11 @@ public class Bird : MonoBehaviour
 {
     public GameObject ExplosionEffect;
     private GameController controller;
+    private bool isExploded;
 
     void Start()
     {
+        isExploded = false;
         controller = GameObject.Find("GameController").GetComponent<GameController>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -21,17 +23,23 @@ public class Bird : MonoBehaviour
         {
             controller.DisplaySoundBirdCollideEnemy();   
         }
-        Destroy(GameObject.Find("bird(Clone)"), 2);
+        if (GameObject.Find("bird(Clone)") != null)
+            Destroy(GameObject.Find("bird(Clone)"), 2);
+        if (GameObject.Find("Bomb(Clone)") != null)
+            Destroy(GameObject.Find("Bomb(Clone)"), 2);
+        if (GameObject.Find("big_brother(Clone)") != null)
+            Destroy(GameObject.Find("big_brother(Clone)"), 2);
         controller.DisplaySoundBirdDestroy();
     }
     public float fieldofImpact;
     public float force;
     public LayerMask LayerToHit;
     void Update(){
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Space) && !isExploded){
             explode();
             // speedup();
             controller.DisplaySoundBirdExplosion();
+            isExploded = true;
         }
     }
     // Vector3 InitialPos;
