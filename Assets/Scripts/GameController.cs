@@ -34,6 +34,7 @@ public class GameController : MonoBehaviour
     public AudioClip destroyWoodClip;
     public AudioClip birdDestroyClip;
     public AudioClip levelFailedClip;
+    public AudioClip birdExplosionClip;
 
     public int totalEnemy;
 
@@ -97,6 +98,11 @@ public class GameController : MonoBehaviour
     {
         audioSource.clip = levelFailedClip;
         audioSource.Play();
+    }
+
+    public void DisplaySoundBirdExplosion()
+    {
+        audioSource.PlayOneShot(birdExplosionClip);
     }
 
     public void PauseGame()
