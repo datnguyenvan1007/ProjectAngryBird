@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 858996972224451707}
   - component: {fileID: 7393303516377166615}
   m_Layer: 0
-  m_Name: bird
+  m_Name: big_brother
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
