@@ -35,16 +35,18 @@ public class GameController : MonoBehaviour
     public AudioClip birdDestroyClip;
     public AudioClip levelFailedClip;
 
-    public int totalEnemy { get; set; }
+    public int totalEnemy;
 
     public int enemyDead { get; set; }
+
+    public int sceneNextIndex;
+    public int sceneCurrentIndex;
 
 
     private void Start()
     {
         audioSource = gameObject.GetComponent<AudioSource>();
         startScore = 0f;
-        totalEnemy = 4;
         enemyDead = 0;
     }
 
@@ -146,7 +148,7 @@ public class GameController : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene(sceneCurrentIndex);
     }
 
     public void DisplayEnemyAlive()
@@ -169,16 +171,21 @@ public class GameController : MonoBehaviour
             audioSource.PlayOneShot(starClip[0]);
         }
         yield return new WaitForSeconds(1);
-        if (totalScore > 5000)
+        if (totalScore > (totalEnemy / 2) * 3000)
         {
             stars[1].SetActive(true);
             audioSource.PlayOneShot(starClip[1]);
         }
         yield return new WaitForSeconds(1);
-        if (totalScore >= 9000)
+        if (totalScore >= totalEnemy * 3000)
         {
             stars[2].SetActive(true);
             audioSource.PlayOneShot(starClip[2]);
         }
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(sceneNextIndex);
     }
 }
