@@ -194,4 +194,9 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneNextIndex);
     }
+
+    public void DisplaySceneSelectLevel()
+    {
+        SceneManager.LoadScene(2);
+    }
 }

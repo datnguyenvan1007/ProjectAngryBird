@@ -1,0 +1,2213 @@
+fileFormatVersion: 2
+guid: b98889ff30c57f042baa58635a2bb795
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 203
+        width: 42
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277e4ddf77679b046aa65e790789a1cd
+      internalID: -1087695805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 204
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6c8f472c66d4a44868c696d5bc3cc4
+      internalID: -1878802951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 217
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec7b9687255750459c22d9dea9ca7ef
+      internalID: -1322833458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 217
+        width: 25
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1aa229898d9a3a4db55868add3d3f9c
+      internalID: -1121694246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 218
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffd9d06587dc634ba466820f15bdbc8
+      internalID: -1012388709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 218
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf3a5afb3f67ee4c82fe0bb4cb63bee
+      internalID: -2018997963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 218
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d0c0ff58aa7847af78275747b7b0a
+      internalID: -1985704916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 218
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef790648c08aa6242b3ed2428cc45565
+      internalID: -521936424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 219
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861e1a96f94aad24aa6e0b8ce0a7445e
+      internalID: 1233902147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 219
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef2e45977b2a124a979e00893d741cc
+      internalID: -205230703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 219
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed63af837510424e963e33447a73c51
+      internalID: -928354620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 219
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863c61ffc15d1bc49ba8454147bbdec4
+      internalID: -1552761299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 219
+        width: 37
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458655161d2c9949bfa983ad3093e44
+      internalID: 1947221719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 220
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05baf54b90cd2634d9ea5ac39d73e61a
+      internalID: 612478113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_14
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 220
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97427210a02b40043bd3195b3429b138
+      internalID: 1979498963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 220
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b81b5d24e6934288432d7931223b2
+      internalID: 1114741962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_16
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 221
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac7866b43d4a6044a1225fbd44c4920
+      internalID: 2107284903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_17
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 221
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf943e445f8183f4bb3183c854dc11b8
+      internalID: -1806943997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_18
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 221
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4c5b4710ee10e4ea280684c9bfbfae
+      internalID: -1215798742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_19
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 222
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28c53ce26611e741b28ada4bab05935
+      internalID: 462917152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 121
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05077f5500edbd4db2baffa969aae9b
+      internalID: -86547330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 123
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31129c2c5b97d244a8885775bd2bcb3f
+      internalID: 590608843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 146
+        width: 15
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a453133d4825dd84d811c04870ad63ec
+      internalID: -496761184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 137
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb76752fd791242ad1bf65ea603f58
+      internalID: 1125029211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_24
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 138
+        width: 25
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcc85ecf6e265840a2557da386ee882
+      internalID: 1536562945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 139
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3216e6a64fca1864f884d4ff94ac8063
+      internalID: -1369686159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 139
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0ba54ed8c8ac4784a38ed54ca4bd4
+      internalID: 110246536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 139
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d721926ae6ed60646badaa79a95f799b
+      internalID: 379775555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 139
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7933cd29bb516c145b6df43c79bb186d
+      internalID: 253243318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 141
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59af71a0c6da815469cd220f72eb445d
+      internalID: 260170148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_30
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 141
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f994a0e4666e3489b2cc48420cdcd8
+      internalID: -1855895404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_31
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 141
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ca096cc4c758649b3a63b76ce86028
+      internalID: 2144191824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_32
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 141
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647c1fef636009b4f912b4224c3fa7ae
+      internalID: 383332447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_33
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 141
+        width: 30
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08692a6bf41839646897e8fbe55a11bd
+      internalID: -466810849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_34
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 143
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b50c3f110507a4c9acb3331565a77e
+      internalID: -1852762039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_35
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 143
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795bc3a029aafc64485d4830e4835b36
+      internalID: 2145006627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_36
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 146
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa9ee9ebb40cf04997ddf2630c458a7
+      internalID: 306871339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_37
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 154
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05c5d47771e4134e94516906d53a2d6
+      internalID: -1514382741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_38
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 163
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2023bcba815bc46a5f1fc45e676565
+      internalID: -2068778024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_39
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 163
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce46ea62ec422646bbee1e64bbf7da0
+      internalID: -356505500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_40
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 163
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766dfeb9971c6b140a10b832eba32ab3
+      internalID: -1829005172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_41
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 163
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239bce8efeb03cf4483d942553cfe750
+      internalID: 1375936340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 29
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9bb31b3653f0b49879e4d054ba2506
+      internalID: -928209002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 42
+        width: 29
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152f23f1d8efec48a0937a43e04923b
+      internalID: 440658874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_44
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 42
+        width: 19
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54092de0a349cb6488d2fb47ba5a8b67
+      internalID: 1462195104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_45
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 57
+        width: 47
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ccbac33e7c4ac4d8488c1140ac9a78
+      internalID: -1478107472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_46
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 60
+        width: 19
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d674b90bdf97f6489cae5bd87196011
+      internalID: 1429333674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_47
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 60
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c33c8d0a7502340a0fc0a5fc477b6d
+      internalID: -605503202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_48
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 60
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644864a3474d70e428cda16c241885cb
+      internalID: -1314109390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 60
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb3ff48bd5ebfc4eb5fa8e85326b0c8
+      internalID: 1773270885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_50
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 61
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be5ed512026584fbd93574c1f251dd
+      internalID: 1743334752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_51
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 63
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8da091c0b0f904284298f2ede93f22
+      internalID: 421095301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_52
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 63
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638eb0e7e29e9d04199baaec71680dc4
+      internalID: -1146815142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 63
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0762de027daafb6428a0ba35d20fbfc7
+      internalID: -1997339064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_54
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 63
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2169df92b1afd4d8baf62260fc87b1
+      internalID: 529464008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_55
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 83
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6946f6ee362027f4c95fc43e916f2bac
+      internalID: 26371736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_56
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 66
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa09a229188354db42d53ba11ebe64
+      internalID: -2135300527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_57
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 66
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddac5c939dfdd1243ac32a378110b021
+      internalID: -482254849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_58
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 88
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6c66689d561f4d863bab1143e7176
+      internalID: 118153302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_59
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 97
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0713124d3926f43b316a5001d44660
+      internalID: 187573600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_60
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 106
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ced5c605b6682c469668aaffd378187
+      internalID: -1355754048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_61
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 106
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e873d6fa0c1b4492bf244fcdb652c
+      internalID: 1237471615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_62
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 106
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f89920b4bbfb2744a668e1966c1c87b
+      internalID: 315616391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_63
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 114
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e637cd5101dea49aa16bc57a8b5968
+      internalID: 1752851609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_64
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 25
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a43b2c3473d0a448718c613e4b2895
+      internalID: -218765506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_65
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 8
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415661e7b62aae44a0d31142092a63b
+      internalID: 1996407844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_66
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 8
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1834984bbf3a20b4db0740ac3be3d823
+      internalID: 1613118932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_67
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 30
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7e8f8278c82cd44b277bb1ccc2deed
+      internalID: 448923665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_68
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 40
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016b38403ba0df44aaf892b990f997a4
+      internalID: -1078323008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_69
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 49
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b822cbedc00e734686d4ea127bfc529
+      internalID: -147688124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_70
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 58
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666ce83c9730f034c83f77b8e44a7bcb
+      internalID: -1822599691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_71
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 62
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c79c41531ff9834fbb89a3b1fadd298
+      internalID: -789851855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_72
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21cd2088af6d45468b97a234f960453
+      internalID: -504746688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_73
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 25
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb22772d9a5a8f84b9215f1c2fffdde6
+      internalID: -1762028224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_74
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 38
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f79e7627105b244f85625da97a1b17d
+      internalID: -347040684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_75
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8cf2227dd2d5a4a96335c9a5b6267e
+      internalID: -499501083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_76
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b30199ec0b23af47ab0c1a629b98f4b
+      internalID: 872726744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1778c39732e92d5449beb7390c6f4fdf
+      internalID: 1623774762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_78
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaf06693d6cd654b9acfd3a985834e9
+      internalID: 1462752321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_79
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 41
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d1101592162a94f9ba2d891f13ef50
+      internalID: -1821278846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_80
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 4
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40efa69682e64d84f85a1af2edc3684f
+      internalID: 1254718681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_81
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 4
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38258fa94f8d6f4b83720baeb5b4d7c
+      internalID: 1575260762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_82
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6794dc26c5f8c498cc74a9612c1422
+      internalID: -1168184130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_83
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 5
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea4974b084cbe7488b972eced0641e5
+      internalID: -1485032662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_84
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 13
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dd27753a0bf8740992dd95db5d9345
+      internalID: 775360884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_85
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 48
+        width: 55
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd438ceaf4da0d64cb2b130b792d76e0
+      internalID: 343780584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_86
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea0357a5c0b4f846952864bf20ba4f4
+      internalID: -1386642404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_87
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 7
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d45057b5b2acb48a0713fcd3ec90c0
+      internalID: -1902313658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_88
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 22
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c060c824934c641bcf9e18ac601685
+      internalID: -1292078604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_89
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574d0b7907a2ab4eab11dc3f5139c50
+      internalID: 730836062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_90
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edfbac018884d1428e41451c7436e42
+      internalID: -545477025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_91
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3d1ab3747ea8a48939ebc66f975caf
+      internalID: -759865192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_92
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 4
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f517caaf99212b42b497b1dc31988cd
+      internalID: 998795004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_93
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 11
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceaa8b82289d384bbbc8f97031a6593
+      internalID: -300277586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONT_MENU_IPAD_94
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5360a66cad784a41a52649639c808a2
+      internalID: -915229752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FONT_MENU_IPAD_21: 590608843
+      FONT_MENU_IPAD_78: 1462752321
+      FONT_MENU_IPAD_65: 1996407844
+      FONT_MENU_IPAD_63: 1752851609
+      FONT_MENU_IPAD_79: -1821278846
+      FONT_MENU_IPAD_92: 998795004
+      FONT_MENU_IPAD_0: -1087695805
+      FONT_MENU_IPAD_57: -482254849
+      FONT_MENU_IPAD_37: -1514382741
+      FONT_MENU_IPAD_67: 448923665
+      FONT_MENU_IPAD_34: -1852762039
+      FONT_MENU_IPAD_52: -1146815142
+      FONT_MENU_IPAD_72: -504746688
+      FONT_MENU_IPAD_24: 1536562945
+      FONT_MENU_IPAD_71: -789851855
+      FONT_MENU_IPAD_2: -1322833458
+      FONT_MENU_IPAD_13: 612478113
+      FONT_MENU_IPAD_6: -1985704916
+      FONT_MENU_IPAD_28: 253243318
+      FONT_MENU_IPAD_39: -356505500
+      FONT_MENU_IPAD_81: 1575260762
+      FONT_MENU_IPAD_70: -1822599691
+      FONT_MENU_IPAD_12: 1947221719
+      FONT_MENU_IPAD_91: -759865192
+      FONT_MENU_IPAD_93: -300277586
+      FONT_MENU_IPAD_74: -347040684
+      FONT_MENU_IPAD_75: -499501083
+      FONT_MENU_IPAD_41: 1375936340
+      FONT_MENU_IPAD_5: -2018997963
+      FONT_MENU_IPAD_33: -466810849
+      FONT_MENU_IPAD_58: 118153302
+      FONT_MENU_IPAD_83: -1485032662
+      FONT_MENU_IPAD_1: -1878802951
+      FONT_MENU_IPAD_59: 187573600
+      FONT_MENU_IPAD_47: -605503202
+      FONT_MENU_IPAD_61: 1237471615
+      FONT_MENU_IPAD_54: 529464008
+      FONT_MENU_IPAD_69: -147688124
+      FONT_MENU_IPAD_27: 379775555
+      FONT_MENU_IPAD_64: -218765506
+      FONT_MENU_IPAD_17: -1806943997
+      FONT_MENU_IPAD_14: 1979498963
+      FONT_MENU_IPAD_87: -1902313658
+      FONT_MENU_IPAD_55: 26371736
+      FONT_MENU_IPAD_66: 1613118932
+      FONT_MENU_IPAD_9: -205230703
+      FONT_MENU_IPAD_68: -1078323008
+      FONT_MENU_IPAD_19: 462917152
+      FONT_MENU_IPAD_84: 775360884
+      FONT_MENU_IPAD_25: -1369686159
+      FONT_MENU_IPAD_11: -1552761299
+      FONT_MENU_IPAD_26: 110246536
+      FONT_MENU_IPAD_32: 383332447
+      FONT_MENU_IPAD_45: -1478107472
+      FONT_MENU_IPAD_29: 260170148
+      FONT_MENU_IPAD_46: 1429333674
+      FONT_MENU_IPAD_94: -915229752
+      FONT_MENU_IPAD_43: 440658874
+      FONT_MENU_IPAD_20: -86547330
+      FONT_MENU_IPAD_23: 1125029211
+      FONT_MENU_IPAD_40: -1829005172
+      FONT_MENU_IPAD_42: -928209002
+      FONT_MENU_IPAD_49: 1773270885
+      FONT_MENU_IPAD_73: -1762028224
+      FONT_MENU_IPAD_82: -1168184130
+      FONT_MENU_IPAD_90: -545477025
+      FONT_MENU_IPAD_56: -2135300527
+      FONT_MENU_IPAD_80: 1254718681
+      FONT_MENU_IPAD_50: 1743334752
+      FONT_MENU_IPAD_60: -1355754048
+      FONT_MENU_IPAD_44: 1462195104
+      FONT_MENU_IPAD_7: -521936424
+      FONT_MENU_IPAD_36: 306871339
+      FONT_MENU_IPAD_31: 2144191824
+      FONT_MENU_IPAD_77: 1623774762
+      FONT_MENU_IPAD_16: 2107284903
+      FONT_MENU_IPAD_38: -2068778024
+      FONT_MENU_IPAD_62: 315616391
+      FONT_MENU_IPAD_86: -1386642404
+      FONT_MENU_IPAD_88: -1292078604
+      FONT_MENU_IPAD_8: 1233902147
+      FONT_MENU_IPAD_15: 1114741962
+      FONT_MENU_IPAD_89: 730836062
+      FONT_MENU_IPAD_3: -1121694246
+      FONT_MENU_IPAD_4: -1012388709
+      FONT_MENU_IPAD_76: 872726744
+      FONT_MENU_IPAD_18: -1215798742
+      FONT_MENU_IPAD_53: -1997339064
+      FONT_MENU_IPAD_85: 343780584
+      FONT_MENU_IPAD_30: -1855895404
+      FONT_MENU_IPAD_35: 2145006627
+      FONT_MENU_IPAD_10: -928354620
+      FONT_MENU_IPAD_51: 421095301
+      FONT_MENU_IPAD_22: -496761184
+      FONT_MENU_IPAD_48: -1314109390
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
