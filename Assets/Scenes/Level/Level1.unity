@@ -5243,7 +5243,7 @@ MonoBehaviour:
   bottomBoundary: -3.5
   birdPrefab: {fileID: 4054547310362783033, guid: 12ea49ad716ebcf42980d6f8e269c083, type: 3}
   birdPositionOffset: -0.31
-  force: 8
+  force: 10
   gameController: {fileID: 1123792329}
   pointPrefab: {fileID: 1853760553127713940, guid: e4333a55043a4964ca5e2e952dfa7034, type: 3}
   numberOfPoints: 20

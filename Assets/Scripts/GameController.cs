@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     bool isPause = false;
     private float startScore;
     private float totalScore;
+    private int totalStar;
 
     public Button btnPause;
     public Sprite spritePause;
@@ -43,12 +44,16 @@ public class GameController : MonoBehaviour
     public int sceneNextIndex;
     public int sceneCurrentIndex;
 
+    private string filePath = "./Score.txt";
+    private string[] scores;
+
 
     private void Start()
     {
         audioSource = gameObject.GetComponent<AudioSource>();
         startScore = 0f;
         enemyDead = 0;
+        totalStar = 0;
     }
 
     private void Update()
@@ -143,6 +148,21 @@ public class GameController : MonoBehaviour
         audioSource.clip = storyClip;
         audioSource.Play();
         StartCoroutine(DisplayStar());
+        if (totalScore > 3000)
+        {
+            totalStar = 1;
+        }
+        if (totalScore > (totalEnemy / 2) * 3000)
+        {
+            totalStar = 2;
+        }
+        if (totalScore >= totalEnemy * 3000)
+        {
+            totalStar = 3;
+        }
+        ReadToFile(filePath, out scores);
+        scores[sceneCurrentIndex - 3] = totalStar.ToString();
+        WriteToFile(filePath, scores);
     }
 
     public void DisplaySceneFailed()
@@ -198,5 +218,15 @@ public class GameController : MonoBehaviour
     public void DisplaySceneSelectLevel()
     {
         SceneManager.LoadScene(2);
+    }
+
+    void WriteToFile(string path, string[] scores)
+    {
+        System.IO.File.WriteAllLines(path, scores);
+    }
+
+    void ReadToFile(string path, out string[] scores)
+    {
+        scores = System.IO.File.ReadAllLines(path);
     }
 }

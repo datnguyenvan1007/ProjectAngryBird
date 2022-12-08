@@ -10,6 +10,8 @@ public class LevelLoader : MonoBehaviour
     private void Start()
     {
         LoadLevel();
+        if (!System.IO.File.Exists("./Score.txt"))
+            System.IO.File.WriteAllLines("./Score.txt", new string[3] { "0", "-1", "-1" });
     }
     public void LoadLevel ()
     {
