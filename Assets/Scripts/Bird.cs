@@ -7,12 +7,16 @@ public class Bird : MonoBehaviour
     public GameObject ExplosionEffect;
     private GameController controller;
     private bool isExploded;
+    public float fieldofImpact;
+    public float force;
+    public LayerMask LayerToHit;
 
     void Start()
     {
         isExploded = false;
         controller = GameObject.Find("GameController").GetComponent<GameController>();
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Wood"))
@@ -23,17 +27,25 @@ public class Bird : MonoBehaviour
         {
             controller.DisplaySoundBirdCollideEnemy();   
         }
+        if (collision.gameObject.CompareTag("Balloon"))
+        {
+            Destroy(collision.gameObject);
+        }
         if (GameObject.Find("bird(Clone)") != null)
+        {
             Destroy(GameObject.Find("bird(Clone)"), 2);
+        }
         if (GameObject.Find("Bomb(Clone)") != null)
+        {
             Destroy(GameObject.Find("Bomb(Clone)"), 2);
+        }
         if (GameObject.Find("big_brother(Clone)") != null)
+        {
             Destroy(GameObject.Find("big_brother(Clone)"), 2);
+        }
         controller.DisplaySoundBirdDestroy();
     }
-    public float fieldofImpact;
-    public float force;
-    public LayerMask LayerToHit;
+    
     void Update(){
         if(Input.GetKeyDown(KeyCode.Space) && !isExploded){
             explode();
@@ -63,7 +75,7 @@ public class Bird : MonoBehaviour
 
     void OnDrawGizmosSelected(){
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position,fieldofImpact);
+        Gizmos.DrawWireSphere(transform.position, fieldofImpact);
     }
 
 
