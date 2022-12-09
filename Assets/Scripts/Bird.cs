@@ -27,10 +27,6 @@ public class Bird : MonoBehaviour
         {
             controller.DisplaySoundBirdCollideEnemy();   
         }
-        if (collision.gameObject.CompareTag("Balloon"))
-        {
-            Destroy(collision.gameObject);
-        }
         if (GameObject.Find("bird(Clone)") != null)
         {
             Destroy(GameObject.Find("bird(Clone)"), 2);
@@ -45,7 +41,7 @@ public class Bird : MonoBehaviour
         }
         controller.DisplaySoundBirdDestroy();
     }
-    
+
     void Update(){
         if(Input.GetKeyDown(KeyCode.Space) && !isExploded){
             explode();

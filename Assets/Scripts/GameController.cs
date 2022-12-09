@@ -57,6 +57,7 @@ public class GameController : MonoBehaviour
         startScore = 0f;
         enemyDead = 0;
         totalStar = 0;
+        txtEnemyAlive.text = enemyDead.ToString() + "/" + totalEnemy.ToString();
     }
 
     private void Update()
