@@ -18,6 +18,7 @@ public class SlingShot : MonoBehaviour
 
     public GameObject birdPrefab;
     public float birdPositionOffset;
+    public int totalBird;
 
     Rigidbody2D bird;
     Collider2D birdCollider;
@@ -89,6 +90,14 @@ public class SlingShot : MonoBehaviour
             if ((bird.transform.position.x >= center.position.x) && isDragBird)
                 isDragBird = false;
         }
+        else
+        {
+            totalBird--;
+            if (totalBird > 0)
+            {
+                CreateBird();
+            }
+        }
     }
 
     void CreateBird()
@@ -128,6 +137,7 @@ public class SlingShot : MonoBehaviour
         //goi lai ten phuong thuc voi thoi gian t
 
         controller.DisplaySoundShoot();
+        controller.ReduceNumberOfPlays();
     }
 
     void ResetStrips()

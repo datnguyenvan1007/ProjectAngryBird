@@ -23,6 +23,8 @@ public class GameController : MonoBehaviour
     public GameObject sceneFailed;
     public GameObject endLevel;
     public GameObject[] stars;
+    public GameObject[] numberOfPlays;
+    private int totalPlays;
 
     private AudioSource audioSource;
     public AudioClip backgroundClip;
@@ -50,6 +52,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        totalPlays = numberOfPlays.Length;
         audioSource = gameObject.GetComponent<AudioSource>();
         startScore = 0f;
         enemyDead = 0;
@@ -135,6 +138,7 @@ public class GameController : MonoBehaviour
 
     public void EndLevel()
     {
+        numberOfPlays[0].SetActive(false);
         if (enemyDead >= totalEnemy)
             DisplaySceneScore();
         else
@@ -218,6 +222,15 @@ public class GameController : MonoBehaviour
     public void DisplaySceneSelectLevel()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void ReduceNumberOfPlays()
+    {
+        if (totalPlays > 0)
+        {
+            --totalPlays;
+            numberOfPlays[totalPlays].SetActive(false);
+        }
     }
 
     void WriteToFile(string path, string[] scores)

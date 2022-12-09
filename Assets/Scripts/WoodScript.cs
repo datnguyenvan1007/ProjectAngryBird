@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class WoodScript : MonoBehaviour
 {
-    private float woodHealth = 20f;
+    public float woodHealth = 20f;
 
     public GameObject gameController;
     private GameController controller;
+    float isAttacked = 0;
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         controller = gameController.GetComponent<GameController>();
+        anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,5 +31,10 @@ public class WoodScript : MonoBehaviour
                 Destroy(gameObject);
                 controller.DisplaySoundDestroyWood();
             }
+        if (collision.relativeVelocity.magnitude > 5)
+        {
+            isAttacked -= 1;
+            anim.SetFloat("IsAttacked", isAttacked);
+        }
     }
 }
