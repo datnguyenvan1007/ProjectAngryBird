@@ -3908,6 +3908,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1231640499696780394, guid: b94724341ea8e0a43af2c23fa51307b0, type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1123792329}
     - target: {fileID: 2763618728943163032, guid: b94724341ea8e0a43af2c23fa51307b0, type: 3}
       propertyPath: m_Name
       value: KingPig
