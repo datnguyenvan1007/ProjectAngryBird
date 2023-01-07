@@ -3241,7 +3241,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1123792331}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: PauseGame
         m_Mode: 1
@@ -3406,6 +3406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 835517895529900730, guid: b631c9ee663f29f4697faa104dc5c3d0, type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1123792329}
     - target: {fileID: 6630076516144182250, guid: b631c9ee663f29f4697faa104dc5c3d0, type: 3}
       propertyPath: m_Name
       value: Ballon (1)
@@ -3489,7 +3493,8 @@ MonoBehaviour:
   destroyWoodClip: {fileID: 8300000, guid: 535daf3e46d20774eb1b7913b6dadbc1, type: 3}
   birdDestroyClip: {fileID: 8300000, guid: 40d1af24f9362934db4049827f56701d, type: 3}
   levelFailedClip: {fileID: 8300000, guid: 2a706854a0fa02f449d2f20da944d187, type: 3}
-  birdExplosionClip: {fileID: 0}
+  birdExplosionClip: {fileID: 8300000, guid: fa7ab0467b3405f4f8e20a87dd8fb483, type: 3}
+  ballonCollisionClip: {fileID: 8300000, guid: 9051ff421b5f4e749a4066f24f786d86, type: 3}
   totalEnemy: 5
   sceneNextIndex: 4
   sceneCurrentIndex: 3
@@ -4789,7 +4794,7 @@ MonoBehaviour:
   birdPrefab: {fileID: 4054547310362783033, guid: 12ea49ad716ebcf42980d6f8e269c083, type: 3}
   birdPositionOffset: -0.31
   totalBird: 3
-  force: 8
+  force: 12
   gameController: {fileID: 1123792329}
   pointPrefab: {fileID: 1853760553127713940, guid: e4333a55043a4964ca5e2e952dfa7034, type: 3}
   numberOfPoints: 20
@@ -5447,6 +5452,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 835517895529900730, guid: b631c9ee663f29f4697faa104dc5c3d0, type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1123792329}
     - target: {fileID: 6630076516144182250, guid: b631c9ee663f29f4697faa104dc5c3d0, type: 3}
       propertyPath: m_Name
       value: Ballon

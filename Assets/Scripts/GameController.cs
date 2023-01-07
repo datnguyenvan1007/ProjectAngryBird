@@ -38,10 +38,12 @@ public class GameController : MonoBehaviour
     public AudioClip birdDestroyClip;
     public AudioClip levelFailedClip;
     public AudioClip birdExplosionClip;
+    public AudioClip ballonCollisionClip;
 
     public int totalEnemy;
 
-    public int enemyDead { get; set; }
+    public int EnemyDead { get; set; }
+    public int WoodBroken { get; set; }
 
     public int sceneNextIndex;
     public int sceneCurrentIndex;
@@ -54,22 +56,27 @@ public class GameController : MonoBehaviour
     {
         totalPlays = numberOfPlays.Length;
         audioSource = gameObject.GetComponent<AudioSource>();
+        totalScore = 0;
         startScore = 0f;
-        enemyDead = 0;
+        EnemyDead = 0;
+        WoodBroken = 0;
         totalStar = 0;
+        txtEnemyAlive.text = EnemyDead.ToString() + "/" + totalEnemy.ToString();
     }
 
     private void Update()
     {
         if (GameObject.Find("bird(Clone)") == null && GameObject.Find("Bomb(Clone)") == null && GameObject.Find("big_brother(Clone)") == null)
             DisplayEndLevel();
+        totalScore = EnemyDead * 3000 + WoodBroken * 200;
         if (startScore < totalScore)
         {
             startScore += 50f;
             txtScore.text = (startScore).ToString("#,###");
         }
-        if (enemyDead >= totalEnemy)
+        if (EnemyDead >= totalEnemy)
             DisplayEndLevel();
+        txtEndScore.text = (totalScore).ToString("#,###");
     }
 
     public void DisplaySoundShoot()
@@ -92,6 +99,11 @@ public class GameController : MonoBehaviour
         audioSource.PlayOneShot(woodCollisionClip);
     }
 
+    public void DisplaySoundBallonCollion()
+    {
+        audioSource.PlayOneShot(ballonCollisionClip);
+    }
+
     public void DisplaySoundDestroyWood()
     {
         audioSource.PlayOneShot(destroyWoodClip);
@@ -99,7 +111,7 @@ public class GameController : MonoBehaviour
 
     public void DisplaySoundBirdDestroy()
     {
-        audioSource.PlayOneShot(birdDestroyClip, 1);
+        audioSource.PlayOneShot(birdDestroyClip);
     }
 
     public void DisplaySoundLevelFailed()
@@ -139,7 +151,7 @@ public class GameController : MonoBehaviour
     public void EndLevel()
     {
         numberOfPlays[0].SetActive(false);
-        if (enemyDead >= totalEnemy)
+        if (EnemyDead >= totalEnemy)
             DisplaySceneScore();
         else
             DisplaySceneFailed();
@@ -183,14 +195,9 @@ public class GameController : MonoBehaviour
 
     public void DisplayEnemyAlive()
     {
-        txtEnemyAlive.text = enemyDead.ToString() + "/" + totalEnemy.ToString();
+        txtEnemyAlive.text = EnemyDead.ToString() + "/" + totalEnemy.ToString();
     }
 
-    public void DisplayScore()
-    {
-        totalScore = enemyDead * 3000;
-        txtEndScore.text = (totalScore).ToString("#,###");
-    }
 
     private IEnumerator DisplayStar()
     {

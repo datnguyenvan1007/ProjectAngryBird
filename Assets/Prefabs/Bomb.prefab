@@ -99,7 +99,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 7
   m_LinearDrag: 0
   m_AngularDrag: 5
   m_GravityScale: 1
@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExplosionEffect: {fileID: 1929572086242858, guid: a861ab5f0d228d4439fbd95fb035bdfe, type: 3}
-  fieldofImpact: 3
-  force: 200
+  fieldOfImpact: 3
+  force: 700
   LayerToHit:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088

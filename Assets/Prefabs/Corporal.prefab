@@ -100,8 +100,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
+  m_Mass: 3
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   delayTime: 0.5
   deathEffect: {fileID: 8449440591666100772, guid: c8504cf4e37e5bc4a971f7aac526b31a, type: 3}
   gameController: {fileID: 0}
-  health: 12
+  health: 27
 --- !u!95 &7169334084171658391
 Animator:
   serializedVersion: 4

@@ -8,7 +8,7 @@ public class WoodScript : MonoBehaviour
 
     public GameObject gameController;
     private GameController controller;
-    float isAttacked = 0;
+    float isAttacked = 1f;
     private Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -28,12 +28,13 @@ public class WoodScript : MonoBehaviour
         if (collision.rigidbody != null)
             if (collision.relativeVelocity.magnitude * collision.rigidbody.mass >= woodHealth)
             {
+                controller.WoodBroken++;
                 Destroy(gameObject);
                 controller.DisplaySoundDestroyWood();
             }
-        if (collision.relativeVelocity.magnitude > 5)
+        if (collision.relativeVelocity.magnitude > 3)
         {
-            isAttacked -= 1;
+            isAttacked *= -1;
             anim.SetFloat("IsAttacked", isAttacked);
         }
     }

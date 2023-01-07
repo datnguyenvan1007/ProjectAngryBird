@@ -37,6 +37,11 @@ public class SelectLevelController : MonoBehaviour
         }
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void SelectLevel(int sceneLevel)
     {
         if (sceneLevel == 3 || int.Parse(scores[sceneLevel - 4]) > 0)

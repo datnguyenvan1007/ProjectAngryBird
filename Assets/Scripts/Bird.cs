@@ -7,14 +7,16 @@ public class Bird : MonoBehaviour
     public GameObject ExplosionEffect;
     private GameController controller;
     private bool isExploded;
-    public float fieldofImpact;
+    public float fieldOfImpact;
     public float force;
     public LayerMask LayerToHit;
+    private Rigidbody2D rig;
 
     void Start()
     {
         isExploded = false;
         controller = GameObject.Find("GameController").GetComponent<GameController>();
+        rig = gameObject.GetComponent<Rigidbody2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -26,10 +28,6 @@ public class Bird : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             controller.DisplaySoundBirdCollideEnemy();   
-        }
-        if (collision.gameObject.CompareTag("Balloon"))
-        {
-            Destroy(collision.gameObject);
         }
         if (GameObject.Find("bird(Clone)") != null)
         {
@@ -44,39 +42,35 @@ public class Bird : MonoBehaviour
             Destroy(GameObject.Find("big_brother(Clone)"), 2);
         }
         controller.DisplaySoundBirdDestroy();
+        isExploded = true;
     }
-    
+
     void Update(){
-        if(Input.GetKeyDown(KeyCode.Space) && !isExploded){
-            explode();
-            // speedup();
+        if(Input.GetMouseButtonDown(0) && ExplosionEffect != null && !isExploded && rig != null && rig.velocity.magnitude > 0.1f){
+            Explode();
             controller.DisplaySoundBirdExplosion();
             isExploded = true;
         }
     }
-    // Vector3 InitialPos;
-    // void speedup(){
-    //     Vector3 vectorForce = transform.position;
-    //     GetComponent<Rigidbody2D>().AddForce(vectorForce * 1000);
-    //     GetComponent<Rigidbody2D>().gravityScale = 1;
-    // }
 
-    void explode(){
-        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldofImpact, LayerToHit);
+    void Explode(){
+        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, fieldOfImpact, LayerToHit);
         foreach(Collider2D obj in objects){
             Vector2 direction = obj.transform.position - transform.position;
 
-            obj.GetComponent<Rigidbody2D>().AddForce(direction*force);
+            obj.GetComponent<Rigidbody2D>().AddForce(direction * force);
+
+            if (obj.gameObject.CompareTag("Balloon"))
+                Destroy(obj.gameObject);
         }
 
-        GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position,Quaternion.identity);
-        Destroy(ExplosionEffectIns,10);
+        GameObject ExplosionEffectIns = Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
+        Destroy(ExplosionEffectIns, 10);
     }
 
     void OnDrawGizmosSelected(){
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, fieldofImpact);
+        Gizmos.DrawWireSphere(transform.position, fieldOfImpact);
     }
-
 
 }

@@ -14,8 +14,8 @@ public class Enemy : MonoBehaviour
     private bool isDead = false;
     private Animator anim;
 
-    public float health = 3f;
-    float isAttacked = 0;
+    public float health;
+    float isAttacked = 1f;
 
     private void Start()
     {
@@ -28,24 +28,24 @@ public class Enemy : MonoBehaviour
     {
         if (collision.rigidbody != null && !isDead)
         {
-            if (collision.relativeVelocity.magnitude > 5)
+            if (collision.relativeVelocity.magnitude > 3)
             {
-                isAttacked -= 1;
+                isAttacked *= -1;
                 anim.SetFloat("IsAttacked", isAttacked);
             }
-            if (collision.gameObject.CompareTag("Wood") && collision.relativeVelocity.magnitude * collision.rigidbody.mass >= 3)
+            if (collision.gameObject.CompareTag("Wood") && collision.relativeVelocity.magnitude * collision.rigidbody.mass >= health)
             {
                 Die();
             }
 
-            if (collision.relativeVelocity.magnitude > health && collision.gameObject.CompareTag("Player"))
+            if (collision.relativeVelocity.magnitude * collision.rigidbody.mass > health && collision.gameObject.CompareTag("Player"))
             {
                 Die();
             }
         }
         if (collision.gameObject.CompareTag("Ground") && !isDead)
         {
-            if (collision.relativeVelocity.magnitude >= 2)
+            if (collision.relativeVelocity.magnitude >= 3)
                 Die();
         }
     }
@@ -55,8 +55,7 @@ public class Enemy : MonoBehaviour
         isDead = true;
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject, delayTime);
-        controller.enemyDead++;
-        controller.DisplayScore();
+        controller.EnemyDead++;
         controller.DisplayEnemyAlive();
     }
 }
